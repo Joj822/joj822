@@ -1,0 +1,50 @@
+.title{
+  color: #FF782B;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.bodytext {
+  color: #D6611C;
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.buttontext {
+  box-sizing: border-box;
+  color: #D6611C;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 24px;
+  transition: font-size 0.5s;
+}
+
+.buttontext:hover {
+  font-size: 30px;
+}
+
+.button {
+  border: none;
+  background-color: #FFE2B8;
+  padding: 13px 20px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: all .5s;
+}
+
+.button:hover {
+  background-color: #FFD291;
+  border-radius: 10px;
+}
