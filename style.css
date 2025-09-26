@@ -51,8 +51,7 @@
 }
 
 .button-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 12px; /* space between buttons */
-  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px; /* spacing between buttons */
 }
